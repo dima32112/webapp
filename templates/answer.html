@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Сайт</title>
+</head>
+
+<body>
+    <p>
+        {{obj['first_name'][0]}}
+        <!-- {{obj['first_name']}} -->
+    </p>
+    <p>
+        {% for color in obj['color'] %}
+        <p>
+            {{color}}
+        </p>
+        {% endfor %}
+    </p>
+</body>
+
+</html>
